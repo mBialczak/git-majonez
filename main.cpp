@@ -2,6 +2,6 @@
 
 int main()
 {
-    std::cout << "Hellow World";
+    std::cout << "Hello Coders School";
     return 0;
 }
