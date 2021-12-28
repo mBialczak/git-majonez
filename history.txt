@@ -1,0 +1,55 @@
+ 1126  mkdir git-majonez
+ 1127  cd git-majonez/
+ 1128  touch main.cpp
+ 1129  git status
+ 1130  git init
+ 1131  ls -la
+ 1132  git status
+ 1133  git add main.cpp 
+ 1134  git status
+ 1135  gs
+ 1136  git status
+ 1137  git commit -m "Initial commit"
+ 1138  git status
+ 1139  git show
+ 1140  git status
+ 1141  git add main.cpp 
+ 1142  git status
+ 1143  git commit -m "Farewell changed"
+ 1144  git remote add origin git@github.com:mBialczak/git-majonez.git
+ 1145  git remote -v
+ 1146  git branch -a
+ 1147  git push -u origin main
+ 1148  git push -u origin master
+ 1149  git status
+ 1150  git branch -a
+ 1151  git branch cs
+ 1152  git branch -a
+ 1153  git checkout cs
+ 1154  git log
+ 1155  git revert -n 82097ee40347e16d1f76d5e55cbd5693bf654b7b
+ 1156  git status
+ 1157  git revert -abort
+ 1158  git revert --abort
+ 1159  git log
+ 1160  git reset --hard 82097ee40347e16d1f76d5e55cbd5693bf654b7b
+ 1161  git status
+ 1162  git log
+ 1163  git status
+ 1164  git add main.cpp 
+ 1165  git status
+ 1166  git branch
+ 1167  git commit -m "Greetings"
+ 1168  git show
+ 1169  git push origin cs
+ 1170  git log
+ 1171  git branch -a
+ 1172  git checkout master 
+ 1173  git merge cs
+ 1174  git status
+ 1175  git add main.cpp 
+ 1176  git status
+ 1177  git commit 
+ 1178  git status
+ 1179  history
+ 1180  history > history.txt
